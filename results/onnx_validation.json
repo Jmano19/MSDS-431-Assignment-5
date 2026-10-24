@@ -1,0 +1,19 @@
+{
+    "format": "ONNX",
+    "runtime": "ONNX Runtime",
+    "backend": "CPUExecutionProvider",
+    "benchmark_runs": 100,
+    "inference_time_ms": 0.047405000077560544,
+    "inference_time_microseconds": 47.405000077560544,
+    "input_name": "float_input",
+    "input_features": 30,
+    "output_names": [
+        "probabilities"
+    ],
+    "output_type": "Class probabilities",
+    "preprocessing": "StandardScaler applied externally",
+    "test_observations": 114,
+    "matching_predictions": 114,
+    "prediction_agreement_percent": 100.0,
+    "opset_version": 15
+}

@@ -1,0 +1,13 @@
+{
+    "model": "Scikit-Learn MLPClassifier",
+    "dataset": "Wisconsin Breast Cancer",
+    "training_observations": 455,
+    "testing_observations": 114,
+    "input_features": 30,
+    "hidden_layers": [
+        64,
+        32
+    ],
+    "training_iterations": 64,
+    "test_accuracy": 0.9736842105263158
+}
